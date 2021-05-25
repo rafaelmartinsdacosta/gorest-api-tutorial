@@ -2,8 +2,8 @@
 .DS_Store
 
 # Plugin history VSCode
-./history
-./history/**
+.history
+.history/**
 
 # Test binary, build with `go test -c`
 *.test
