@@ -1,0 +1,8 @@
+# Mac OS X files
+.DS_Store
+
+# Plugin history VSCode
+./history
+
+# Test binary, build with `go test -c`
+*.test
