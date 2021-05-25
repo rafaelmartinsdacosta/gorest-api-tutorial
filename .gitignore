@@ -3,6 +3,7 @@
 
 # Plugin history VSCode
 ./history
+./history/**
 
 # Test binary, build with `go test -c`
 *.test
