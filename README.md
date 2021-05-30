@@ -8,14 +8,14 @@ Iniciando banco de dados + aplicação REST API
 docker-compose up --build
 ```
 
-### Iniciando container PostgreSQL :elephant:
+### :elephant: Iniciando container PostgreSQL
 Criar banco de dados
 
 ```
 docker run --name comments-api-db -e POSTGRES_PASSWORD=postgres -p 54321:5432 -d postgres
 ```
 
-### Variáveis de ambiente :key:
+### :key: Variáveis de ambiente
 Revisar o arquivo env.sh conforme a necessidade
 
 ```
