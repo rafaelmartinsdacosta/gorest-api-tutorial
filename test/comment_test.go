@@ -11,10 +11,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func init() {
-	SetupEnv()
-}
-
 // TestGetComments - Unit test for get comments
 func TestGetComments(t *testing.T) {
 	fmt.Println("Running E2E test for get comments endpoint")

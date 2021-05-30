@@ -10,3 +10,7 @@ func SetupEnv() {
 		os.Setenv("SERVER_TEST", "http://localhost:8080")
 	}
 }
+
+func init() {
+	SetupEnv()
+}

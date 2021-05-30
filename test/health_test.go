@@ -11,10 +11,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func init() {
-	SetupEnv()
-}
-
 func TestHealthEndpoint(t *testing.T) {
 	fmt.Println("Running E2E test for health check endpoint")
 
